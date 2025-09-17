@@ -13,10 +13,38 @@ The model is trained using Random Forest/XGBoost and deployed with Gradio for an
 - Random Forest achieved **99% accuracy** and **ROC-AUC ~0.999**
 - HbA1c and FPG are most influential features
 
-## 🛠️ How to Run
-```bash
-# Install dependencies
-pip install -r requirements.txt
+## 📊 Feature Importance
 
-# Run app
-python app/app.py
+Based on the trained model, the most important predictors are:
+
+HbA1c
+
+FPG
+
+BMI
+
+Weight Loss
+
+## 🛠️ Tech Stack
+
+Python
+
+pandas, numpy, scikit-learn, imblearn, xgboost
+
+matplotlib, seaborn (for visualization)
+
+Gradio (for deployment)
+
+## ✨ Future Improvements
+
+Add more datasets for robust training
+
+Hyperparameter tuning for better accuracy
+
+Deploy on Hugging Face Spaces or Streamlit Cloud
+
+## 📌 Author
+
+Sule Isiaka Babatunde
+
+Data Scientist | ML Enthusiast
