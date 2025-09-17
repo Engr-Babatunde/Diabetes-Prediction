@@ -1,6 +1,7 @@
 # Diabetes Prediction (Hybrid: Clinical + ML)
 
-This project predicts diabetes using both **clinical rules** (WHO thresholds for HbA1c and FPG) and a **machine learning model (Random Forest)** trained on patient data.
+This project builds and deploys a machine learning model for predicting diabetes using clinical indicators and symptoms such as FPG, HbA1c, BMI, Weight Loss, Nocturia, Polyuria, Age, and Gender.
+The model is trained using Random Forest/XGBoost and deployed with Gradio for an interactive user interface.
 
 ## 🚀 Features
 - Preprocessing with **SMOTE** to balance dataset
